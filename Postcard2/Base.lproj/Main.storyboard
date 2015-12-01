@@ -65,6 +65,16 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LsL-eb-aEQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uog-9P-Ig1">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="206" width="171" height="32"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -75,6 +85,7 @@
                                 <exclude reference="O3G-SG-ypG"/>
                                 <exclude reference="aB6-XD-Syj"/>
                                 <exclude reference="350-d7-cS2"/>
+                                <exclude reference="Uog-9P-Ig1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -84,6 +95,7 @@
                                 <include reference="O3G-SG-ypG"/>
                                 <include reference="aB6-XD-Syj"/>
                                 <include reference="350-d7-cS2"/>
+                                <include reference="Uog-9P-Ig1"/>
                             </mask>
                         </variation>
                     </view>
@@ -92,6 +104,7 @@
                         <outlet property="enterNameTextField" destination="Otz-Pk-VLd" id="BiR-o1-qmS"/>
                         <outlet property="mailButton" destination="350-d7-cS2" id="Hj7-Vm-gua"/>
                         <outlet property="messageLabel" destination="aB6-XD-Syj" id="le1-3a-MMq"/>
+                        <outlet property="nameLabel" destination="Uog-9P-Ig1" id="QYQ-dX-8RS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -107,6 +120,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JXp-FC-B13"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pTQ-yw-SZb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="mbl-jD-emC">
